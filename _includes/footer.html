@@ -2,9 +2,15 @@
     <div class="w-100 d-inline-flex align-items-center justify-content-around">
         <p>
             <small>
-                Copyright Muriki Game Studios ©2022 - <script>document.write((new Date(Date.now())).getFullYear())</script>.
+                Copyright Muriki Game Studios ©2022 - <span id="currentYear">2022</span>.
                 Read our <a class="link-light" href="{{ site.baseurl }}/privacy-policy">Privacy Policy</a>.
             </small>
         </p>
+        <script>
+            // Set current year to footer
+            const currentYear = (new Date(Date.now())).getFullYear();
+            const yearElement = document.getElementById('currentYear');
+            yearElement.innerHTML = currentYear;
+        </script>
     </div>
 </footer>
