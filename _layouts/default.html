@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="bg-dark h-100 w-100">
+    {% include navbar.html %}
+    {% include banner.html %}
+
+    <div class="p-4 text-white">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.logo {
+    height: 400px;
+}
+
+.logo-text {
+    width: 50%;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-text {
+        width: 100%;
+    }
+}
