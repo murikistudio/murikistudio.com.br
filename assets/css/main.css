@@ -16,6 +16,12 @@ html, body {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .logo {
+        height: initial;
+        width: 90%;
+    }
+
     .logo-text {
         width: 100%;
     }
