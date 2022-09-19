@@ -1,3 +1,5 @@
+---
+---
 html, body {
     height: 100%;
 }
@@ -13,6 +15,12 @@ html, body {
 .footer {
     position: relative;
     bottom: 0;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-size: contain;
+    background-image: url({{ site.url }}/assets/img/background.webp);
 }
 
 @media only screen and (max-width: 768px) {
