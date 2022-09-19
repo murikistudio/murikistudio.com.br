@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /games/
+title: Games
+permalink: games
 ---
 
 # Games
