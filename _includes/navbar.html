@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-secondary" style="position: sticky; top: 0">
     <div class="container-fluid">
-        <a class="navbar-brand text-white" href="{{ site.baseurl }}">{{ site.title }}</a>
+        <a class="navbar-brand text-white" href="{{ site.url }}">{{ site.title }}</a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,7 +9,7 @@
             <ul class="navbar-nav align-items-center">
                 {% for section in site.data.toc %}
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ site.baseurl }}/{{ section.url }}">{{ section.title }}</a>
+                    <a class="nav-link text-white" href="{{ site.url }}/{{ section.url }}">{{ section.title }}</a>
                 </li>
                 {% endfor %}
             </ul>
