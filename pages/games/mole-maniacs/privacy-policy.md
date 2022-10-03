@@ -121,4 +121,4 @@ This policy is effective as of **2022-09-22**.
 ## Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us at [contact@murikistudio.com](mailto:contact@murikistudio.com).
+hesitate to contact us at [{{ site.email }}](mailto:{{ site.email }}).
