@@ -6,8 +6,8 @@ permalink: games/mole-maniacs/privacy-policy
 
 # {{ page.title }}
 
-Muriki Game Studio built the Mole Maniacs app as an Ad Supported app.
-This game is provided by Muriki Game Studio at no cost and is intended for
+{{ site.title }} built the Mole Maniacs app as an Ad Supported app.
+This game is provided by {{ site.title }} at no cost and is intended for
 use as is.
 
 This page is used to inform visitors regarding our policies with the
