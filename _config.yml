@@ -21,11 +21,10 @@
 title: Muriki Game Studio
 email: contact@murikistudio.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Muriki Game Studios is an indie game development team based in Brazil
-  formed in 2022.
+  Muriki Game Studio is an indie game development team based in Brazil formed in 2022.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://murikistudio.com" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  muriki-studio
+github_username:  murikistudio
 
 # Build settings
 theme:
