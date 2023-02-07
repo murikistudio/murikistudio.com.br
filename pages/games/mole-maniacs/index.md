@@ -15,7 +15,7 @@ screenshots:
 
 # {{ page.title }}
 
-<div class="swiper my-5" style="max-width: 960px;">
+<div class="swiper my-4" style="max-width: 960px;">
     <div class="swiper-wrapper">
         {% for screenshot in page.screenshots %}
         <div class="swiper-slide">
@@ -38,6 +38,11 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 - Collect coins to buy new hammers!
 - Don't let your energy bar go down to zero!
 
+<div class="w-100 my-5 d-flex justify-content-center align-items-center">
+    <a href="https://play.google.com/store/apps/details?id=com.muriki.molemaniacs">
+        <img src="/assets/img/get-google-play.png" alt="Get it on Google Play" style="max-width: 300px">
+    </a>
+</div>
 
 ## Legal Information
 
