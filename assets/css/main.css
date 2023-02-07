@@ -68,3 +68,11 @@ h1 {
 .nav-link:hover, .navbar-brand:hover {
     color: var(--bs-link-color) !important;
 }
+
+.hover {
+    transition: filter 0.2s;
+}
+
+.hover:hover {
+    filter: brightness(1.2);
+}
