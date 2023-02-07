@@ -39,7 +39,7 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 - Don't let your energy bar go down to zero!
 
 <div class="w-100 my-5 d-flex justify-content-center align-items-center">
-    <a href="https://play.google.com/store/apps/details?id=com.muriki.molemaniacs">
+    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.muriki.molemaniacs">
         <img src="/assets/img/get-google-play.png" alt="Get it on Google Play" style="max-width: 300px">
     </a>
 </div>
