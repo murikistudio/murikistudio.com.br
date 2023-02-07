@@ -5,11 +5,13 @@
 
 <body class="bg-dark h-100 w-100">
     {% include navbar.html %}
-    {% include banner.html %}
+    {% include banner.html show_logo=page.show_banner_logo %}
 
+    {% unless page.hide_content %}
     <div class="page-content text-white">
         {{ content }}
     </div>
+    {% endunless %}
 
     {% include footer.html %}
 </body>
