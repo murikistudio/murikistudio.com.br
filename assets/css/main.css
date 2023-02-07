@@ -23,6 +23,10 @@ html, body {
     background-image: url({{ site.url }}/assets/img/background.webp);
 }
 
+.page-content {
+    padding: 3rem !important;
+}
+
 @media only screen and (max-width: 768px) {
 
     .logo {
@@ -33,4 +37,13 @@ html, body {
     .logo-text {
         width: 100%;
     }
+
+    .page-content {
+        padding: 1.5rem !important;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1.2rem !important;
 }
