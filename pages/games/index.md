@@ -21,12 +21,4 @@ permalink: games
     <div class="swiper-button-next"></div>
 </div>
 
-<script>
-    const swiper = new Swiper('.swiper', {
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        spaceBetween: 24,
-    });
-</script>
+{% include swiper.html %}
