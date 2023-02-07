@@ -1,6 +1,8 @@
 ---
 ---
 html, body {
+    --bs-link-color: #0dfd57;
+    --bs-link-hover-color: #0cd34b;
     height: 100%;
 }
 
@@ -8,6 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none !important;
 }
 
 footer {
@@ -57,4 +63,8 @@ footer {
 h1 {
     text-align: center;
     margin-bottom: 1.2rem !important;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: var(--bs-link-color) !important;
 }
