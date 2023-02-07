@@ -11,6 +11,16 @@ screenshots:
     - screenshot-5.jpg
     - screenshot-6.jpg
     - screenshot-7.jpg
+links:
+    - name: "Google Play"
+      image: "google-play.png"
+      url: "https://play.google.com/store/apps/details?id=com.muriki.molemaniacs"
+    - name: "itch.io"
+      image: "itch-io.png"
+      url: "https://murikistudio.itch.io/mole-maniacs"
+    - name: "Game Jolt"
+      image: "game-jolt.png"
+      url: "https://gamejolt.com/games/mole-maniacs/785385"
 ---
 
 # {{ page.title }}
@@ -38,10 +48,12 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 - Collect coins to buy new hammers!
 - Don't let your energy bar go down to zero!
 
-<div class="w-100 my-5 d-flex justify-content-center align-items-center">
-    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.muriki.molemaniacs">
-        <img src="/assets/img/get-google-play.png" alt="Get it on Google Play" style="max-width: 300px">
-    </a>
+<div class="w-100 my-5 d-flex justify-content-center flex-column align-items-center">
+    {% for link in page.links %}
+        <a class="m-2" target="_blank" href="{{ link.url }}">
+            <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 200px">
+        </a>
+    {% endfor %}
 </div>
 
 ## Legal Information
