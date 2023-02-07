@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-show_banner_logo: true
+show_banner: true
 hide_content: true
 ---
 
