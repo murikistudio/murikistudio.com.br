@@ -48,10 +48,10 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 - Collect coins to buy new hammers!
 - Don't let your energy bar go down to zero!
 
-<div class="w-100 my-5 d-flex justify-content-center flex-column align-items-center">
+<div class="w-100 my-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
         <a class="m-2" target="_blank" href="{{ link.url }}">
-            <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 200px">
+            <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
         </a>
     {% endfor %}
 </div>
@@ -62,3 +62,15 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 - [Privacy Policy]({{ site.url }}/{{ page.permalink }}/privacy-policy)
 
 {% include swiper.html %}
+
+<style>
+.row-or-column {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 860px) {
+    .row-or-column {
+        flex-direction: column;
+    }
+}
+</style>
