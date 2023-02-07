@@ -15,7 +15,7 @@ screenshots:
 
 # {{ page.title }}
 
-<div class="swiper my-4" style="max-width: 960px;">
+<div class="swiper my-5" style="max-width: 960px;">
     <div class="swiper-wrapper">
         {% for screenshot in page.screenshots %}
         <div class="swiper-slide">
