@@ -15,11 +15,11 @@ footer {
 }
 
 .logo {
-    height: 400px;
+    height: 50vh;
 }
 
 .logo-text {
-    width: 50%;
+    width: 80vh;
 }
 
 .footer {
@@ -42,11 +42,11 @@ footer {
 
     .logo {
         height: initial;
-        width: 90%;
+        width: 65vw;
     }
 
     .logo-text {
-        width: 100%;
+        width: 95vw;
     }
 
     .page-content {
