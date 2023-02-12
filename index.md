@@ -1,11 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Home
 show_banner: true
 hide_content: true
 ---
 
-# Home
-Under construction...
+# {{ page.title }}
