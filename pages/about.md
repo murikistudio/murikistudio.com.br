@@ -4,13 +4,20 @@ title: About
 permalink: about
 ---
 
-# About
+# {{ page.title }}
 
 Muriki Game Studio is an indie-game development team formed in 2022.
 The current development team is composed by:
 
-- Joel Gomes da Silva (programmer, sound designer)
-- Diego Almeida (graphics artist, art designer)
-- Luciano Abreu (graphics artist, game designer)
+- Diego Almeida (2D and 3D artist)
+- Erik Silva Ferreira (game designer)
+- Joel Gomes da Silva (developer, sound designer)
+- Luciano Abreu (3D artist)
 
-All team members reside in different states of Brazil.
+## Contact
+
+If you wish to contact us, send a message on:
+
+{% for contact in site.data.contact -%}
+- [{{ contact.name }}]({{ contact.url }})
+{% endfor %}
