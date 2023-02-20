@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    user-select: none;
     background: url('/assets/img/page-background.jpg');
     background-attachment: fixed;
     background-blend-mode: luminosity;
@@ -77,6 +78,7 @@ footer {
 
 .page-content {
     padding: 3rem !important;
+    user-select: text;
 }
 
 @media only screen and (max-width: 768px) {

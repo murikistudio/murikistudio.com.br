@@ -51,7 +51,7 @@ Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lot
 
 <div class="w-100 my-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
-        <a class="m-2" target="_blank" href="{{ link.url }}">
+        <a class="m-2 hover" target="_blank" href="{{ link.url }}">
             <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
         </a>
     {% endfor %}
