@@ -10,6 +10,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: url('/assets/img/page-background.jpg');
+    background-attachment: fixed;
+    background-blend-mode: luminosity;
 }
 
 a {
