@@ -41,11 +41,12 @@ links:
     <div class="swiper-button-next"></div>
 </div>
 
-Mole Maniacs is a Whack-A-Mole style game: a game that's not just a hit, but lots of them!
+**Mole Maniacs** is a *Whack-A-Mole* style game: a game that's not just a hit, but lots of them!
 
-- Whack the moles!
-- Whack the rats to get extra points!
-- Don't hit the sheep to get coins!
+- Complete missions on different levels!
+- Submit scores on world leaderboards!
+- Hit the moles!
+- Get coins by not hitting sheep!
 - Collect coins to buy new hammers!
 - Don't let your energy bar go down to zero!
 
