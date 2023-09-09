@@ -1,3 +1,11 @@
+- name: YouTube
+  icon: youtube
+  show_on_footer: true
+  url: "https://www.youtube.com/@murikistudio"
+- name: Twitter
+  icon: twitter
+  show_on_footer: true
+  url: "https://twitter.com/murikistudio"
 - name: Instagram
   icon: instagram
   show_on_footer: true
