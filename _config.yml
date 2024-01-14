@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Muriki Game Studio
-email: contact@murikistudio.com
+email: contact@murikistudio.com.br
 description: >- # this means to ignore newlines until "baseurl:"
   Muriki Game Studio is an indie game development team based in Brazil formed in 2022.
 baseurl: "" # the subpath of your site, e.g. /blog

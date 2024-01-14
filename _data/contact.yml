@@ -30,7 +30,7 @@
   icon: facebook
   show_on_footer: false
   url: "https://www.facebook.com/murikistudio"
-- name: contact@murikistudio.com
+- name: contact@murikistudio.com.br
   icon: email
   show_on_footer: false
-  url: "mailto:contact@murikistudio.com"
+  url: "mailto:contact@murikistudio.com.br"
