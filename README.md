@@ -2,4 +2,4 @@
 
 Muriki Game Studio website repository hosted at <https://murikistudio.com.br/>.
 
-This is a static site source code based on Jekyll.
+This is a static site source code based on [Jekyll](https://jekyllrb.com/).
