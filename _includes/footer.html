@@ -3,7 +3,7 @@
         {% for contact in site.data.contact %}
             {% if contact.show_on_footer %}
                 <a class="social-icon" href="{{ contact.url }}" alt="{{ contact.name }}" target="_blank">
-                    <img class="w-100 h-100" src="/assets/img/icons/{{ contact.icon }}.svg" alt="{{ contact.name }}">
+                    <img class="w-100 h-100 social-icon-img" src="/assets/img/icons/{{ contact.icon }}.svg" alt="{{ contact.name }}">
                 </a>
             {% endif %}
         {% endfor %}
@@ -12,7 +12,7 @@
         <p class="mb-0 mt-2" style="font-size: 0.8rem; color: #c9c9ca; line-height: 1rem;">
             <small>
                 Copyright {{ site.title }} ©2022 - <span id="currentYear">{{ 'now' | date: "%Y" }}</span>.
-                Read this website's <a href="{{ site.baseurl }}/privacy-policy" class="text-white">Privacy Policy</a>.
+                Read this website's <a href="{{ site.baseurl }}/privacy-policy">Privacy Policy</a>.
             </small>
         </p>
         <script>

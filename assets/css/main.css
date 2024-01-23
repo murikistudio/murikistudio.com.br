@@ -36,6 +36,10 @@ footer {
     padding: 2px;
 }
 
+.social-icon-img:hover {
+    filter: sepia(1000) saturate(100) hue-rotate(60deg);
+}
+
 .social-icon {
     display: flex;
     align-items: center;
@@ -100,6 +104,23 @@ footer {
 h1 {
     text-align: center;
     margin-bottom: 1.2rem !important;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+}
+
+div.nav-separator {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: 24px;
+    opacity: 0.2;
+}
+
+div.nav-separator:last-child {
+    display: none !important;
 }
 
 .nav-link:hover, .navbar-brand:hover {

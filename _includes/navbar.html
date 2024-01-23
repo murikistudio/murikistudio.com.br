@@ -6,11 +6,12 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav align-items-center">
+            <ul class="navbar-nav align-items-center pt-3 pt-md-0">
                 {% for section in site.data.toc %}
-                <li class="nav-item">
+                <li class="nav-item px-md-3 px-0">
                     <a class="nav-link text-white" href="{{ site.url }}/{{ section.url }}">{{ section.title }}</a>
                 </li>
+                <div class="nav-separator"></div>
                 {% endfor %}
             </ul>
         </div>
