@@ -10,6 +10,10 @@
   icon: instagram
   show_on_footer: true
   url: "https://www.instagram.com/murikistudio"
+- name: Discord
+  icon: discord
+  show_on_footer: false
+  url: "https://discord.gg/X5mthm2q8q"
 - name: TikTok
   icon: tiktok
   show_on_footer: true
