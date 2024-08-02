@@ -14,6 +14,7 @@ body {
     background: url('/assets/img/page-background.jpg');
     background-attachment: fixed;
     background-blend-mode: luminosity;
+    animation: background-scroll 60s linear infinite;
 }
 
 a {
@@ -78,6 +79,21 @@ footer {
     background-size: contain;
     height: 100%;
     background-image: url(/assets/img/banner-background.webp);
+    animation: background-scroll 60s linear infinite;
+}
+
+@keyframes background-scroll {
+    0% {
+        background-position: 0px 0px
+    }
+
+    50% {
+        background-position: -600px 0px
+    }
+
+    100% {
+        background-position: 0px 0px
+    }
 }
 
 .page-content {
