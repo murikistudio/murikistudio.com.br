@@ -2,6 +2,10 @@
   icon: youtube
   show_on_footer: true
   url: "https://www.youtube.com/@murikistudio"
+- name: Discord
+  icon: discord
+  show_on_footer: true
+  url: "https://discord.gg/gr8u2EEXz9"
 - name: Twitter
   icon: twitter
   show_on_footer: true
@@ -10,10 +14,6 @@
   icon: instagram
   show_on_footer: true
   url: "https://www.instagram.com/murikistudio"
-- name: Discord
-  icon: discord
-  show_on_footer: false
-  url: "https://discord.gg/gr8u2EEXz9"
 - name: TikTok
   icon: tiktok
   show_on_footer: true
@@ -28,7 +28,7 @@
   url: "https://murikistudio.itch.io/"
 - name: Game Jolt
   icon: gamejolt
-  show_on_footer: true
+  show_on_footer: false
   url: "https://gamejolt.com/@murikistudio"
 - name: Facebook
   icon: facebook
