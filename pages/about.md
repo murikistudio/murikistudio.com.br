@@ -11,7 +11,7 @@ The current development team is composed by:
 
 - Diego Almeida (2D and 3D artist)
 - Joel Gomes da Silva (programmer, sound designer)
-- Luciano Abreu (3D artist, programmer)
+- Luciano Abreu (game designer, programmer)
 
 ## Contact
 
