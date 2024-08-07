@@ -16,7 +16,7 @@ Policy, do not hesitate to contact us.
 
 ## Log Files
 
-{{ site.title }} do log user activity, however it uses libraries from
+{{ site.title }} do not log user activity, however it uses libraries from
 third-parties that may track user activity.
 If unsure, check the website's source code on our
 [GitHub](https://github.com/{{ site.github_username }}/{{ site.github_repo }}).
