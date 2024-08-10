@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     user-select: none;
-    background: url('/assets/img/page-background.jpg');
+    background: url('/assets/img/page-background.webp');
     background-attachment: fixed;
     background-blend-mode: luminosity;
     animation: background-scroll 60s linear infinite;

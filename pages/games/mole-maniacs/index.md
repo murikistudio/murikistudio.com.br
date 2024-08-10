@@ -3,25 +3,25 @@ layout: default
 title: Mole Maniacs
 permalink: games/mole-maniacs
 swiper: true
-logo_share: mole-maniacs/logo.png
+logo_share: mole-maniacs/logo.webp
 screenshots:
-    - screenshot-8.jpg
-    - screenshot-1.jpg
-    - screenshot-2.jpg
-    - screenshot-3.jpg
-    - screenshot-4.jpg
-    - screenshot-5.jpg
-    - screenshot-6.jpg
-    - screenshot-7.jpg
+    - screenshot-8.webp
+    - screenshot-1.webp
+    - screenshot-2.webp
+    - screenshot-3.webp
+    - screenshot-4.webp
+    - screenshot-5.webp
+    - screenshot-6.webp
+    - screenshot-7.webp
 links:
     - name: "Google Play"
-      image: "google-play.png"
+      image: "google-play.webp"
       url: "https://play.google.com/store/apps/details?id=com.muriki.molemaniacs"
     - name: "itch.io"
-      image: "itch-io.png"
+      image: "itch-io.webp"
       url: "https://murikistudio.itch.io/mole-maniacs"
     - name: "Game Jolt"
-      image: "game-jolt.png"
+      image: "game-jolt.webp"
       url: "https://gamejolt.com/games/mole-maniacs/785385"
 ---
 

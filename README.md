@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="600px" alt="Muriki Game Studio" src="assets/img/logo-share.png">
+  <img width="600px" alt="Muriki Game Studio" src="assets/img/logo-share.webp">
 </p>
 
 [Jekyll](https://jekyllrb.com/) project containing the contents of the website
