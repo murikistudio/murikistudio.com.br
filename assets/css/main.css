@@ -31,6 +31,10 @@ footer {
     justify-content: center;
 }
 
+.bg-bars {
+    background-color: rgb(40 68 89 / 60%) !important;
+}
+
 .social-icon:hover {
     color: white;
     opacity: 0.9;
@@ -115,6 +119,12 @@ footer {
     .page-content {
         padding: 1.5rem !important;
     }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 h1 {
@@ -125,18 +135,18 @@ h1 {
 .navbar-nav {
     flex-direction: row !important;
     justify-content: space-evenly !important;
+    width: 256px;
 }
 
-div.nav-separator {
-    border-style: solid;
+li.nav-item {
+    width: 100%;
+    text-align: center;
+}
+
+li.nav-item:not(:last-child) {
+    border-right-style: solid;
     border-width: 1px;
     border-color: white;
-    height: 24px;
-    opacity: 0.2;
-}
-
-div.nav-separator:last-child {
-    display: none !important;
 }
 
 .nav-link:hover, .navbar-brand:hover {
