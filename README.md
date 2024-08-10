@@ -1,7 +1,12 @@
 <p align="center">
-  <img width="600px" alt="Mole Maniacs" src="/assets/img/logo-share.png">
+  <img width="600px" alt="Muriki Game Studio" src="assets/img/logo-share.png">
 </p>
 
-Muriki Game Studio website repository hosted at <https://murikistudio.com.br/>.
+[Jekyll](https://jekyllrb.com/) project containing the contents of the website
+[murikistudio.com.br](https://murikistudio.com.br/).
+Uses GitHub Actions to deploy its static content.
 
-This is a static site source code based on [Jekyll](https://jekyllrb.com/).
+## Requirements
+- [Ruby](https://www.ruby-lang.org/en/downloads/) `3.1`
+- [RubyGems](https://rubygems.org/pages/download) `>=3.3.27`
+- [Bundler](https://bundler.io/guides/getting_started.html) `>=2.5.17`
