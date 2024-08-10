@@ -2,6 +2,7 @@
 layout: default
 title: Mole Maniacs
 permalink: games/mole-maniacs
+swiper: true
 logo_share: mole-maniacs/logo.png
 screenshots:
     - screenshot-8.jpg

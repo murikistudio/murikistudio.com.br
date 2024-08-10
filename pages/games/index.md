@@ -2,6 +2,7 @@
 layout: default
 title: Games
 permalink: games
+swiper: true
 ---
 
 # Games
