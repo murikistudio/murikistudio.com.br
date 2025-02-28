@@ -12,7 +12,7 @@ swiper: true
         {% for game in site.data.games %}
         <div class="swiper-slide">
             <a class="card hover rounded-5 text-decoration-none d-flex flex-column overflow-hidden" style="background: {{ game.background }}" href="{{ site.url }}/{{ game.url }}">
-                <img src="/assets/img/{{ game.icon }}" alt="{{ game.title }}">
+                <img loading="lazy" src="/assets/img/{{ game.icon }}" alt="{{ game.title }}">
             </a>
         </div>
         {% endfor %}
