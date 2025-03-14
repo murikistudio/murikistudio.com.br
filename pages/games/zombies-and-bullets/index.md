@@ -17,10 +17,7 @@ screenshots:
 links:
     - name: "Steam"
       image: "steam-wishlist.webp"
-      url: "https://store.steampowered.com/app/2802870"
-    - name: "itch.io"
-      image: "itch-io.webp"
-      url: "https://murikistudio.itch.io/zombies-and-bullets"
+      url: "https://store.steampowered.com/app/2802870/Zombies__Bullets/"
 ---
 
 # {{ page.title }}
