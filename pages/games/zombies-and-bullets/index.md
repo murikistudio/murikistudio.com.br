@@ -26,7 +26,7 @@ links:
     <div class="swiper-wrapper">
         {% for screenshot in page.screenshots %}
         <div class="swiper-slide">
-            <div class="card rounded-5 text-decoration-none d-flex flex-column overflow-hidden">
+            <div class="rounded-5 text-decoration-none d-flex flex-column overflow-hidden">
                 <img loading="lazy" src="/assets/img/zombies-and-bullets/{{ screenshot }}" alt="{{ screenshot }}">
             </div>
         </div>
@@ -84,7 +84,7 @@ At the end of each environment, after completing all stages, you will face a bos
     <img src="/assets/img/zombies-and-bullets/screenshot-7.webp" alt="" class="rounded-5" style="max-width: 400px">
 </div>
 
-{% include swiper.html %}
+{% include swiper.html autoplay=true %}
 
 <style>
 .row-or-column {

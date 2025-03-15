@@ -1,5 +1,9 @@
 ---
 ---
+:root {
+    --swiper-theme-color: #ffffffc5 !important;
+}
+
 html, body {
     --bs-link-color: #0dfd57;
     --bs-link-hover-color: #0cd34b;

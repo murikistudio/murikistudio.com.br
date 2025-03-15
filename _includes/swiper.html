@@ -8,9 +8,19 @@
             el: '.swiper-pagination',
             type: 'bullets',
         },
+        effect: "cube",
+        cubeEffect: {
+            shadow: true,
+            slideShadows: false,
+            shadowOffset: 20,
+            shadowScale: 0.95,
+        },
+        loop: true,
+        //{% if include.autoplay %}
         autoplay: {
             delay: 5000,
         },
+        //{% endif %}
         spaceBetween: 24,
     });
 </script>

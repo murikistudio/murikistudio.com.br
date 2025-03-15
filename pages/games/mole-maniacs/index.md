@@ -31,7 +31,7 @@ links:
     <div class="swiper-wrapper">
         {% for screenshot in page.screenshots %}
         <div class="swiper-slide">
-            <div class="card rounded-5 text-decoration-none d-flex flex-column overflow-hidden">
+            <div class="rounded-5 text-decoration-none d-flex flex-column overflow-hidden">
                 <img loading="lazy" src="/assets/img/mole-maniacs/{{ screenshot }}" alt="{{ screenshot }}">
             </div>
         </div>
@@ -64,7 +64,7 @@ links:
 - [Terms & Conditions]({{ site.url }}/{{ page.permalink }}/terms-and-conditions)
 - [Privacy Policy]({{ site.url }}/{{ page.permalink }}/privacy-policy)
 
-{% include swiper.html %}
+{% include swiper.html autoplay=true %}
 
 <style>
 .row-or-column {
