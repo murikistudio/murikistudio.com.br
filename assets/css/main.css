@@ -105,12 +105,13 @@ footer {
 }
 
 .page-content {
-    padding: 3rem !important;
     user-select: text;
+    width: 768px;
+    margin: 0 auto;
+    padding: 1.5rem !important;
 }
 
 @media only screen and (max-width: 768px) {
-
     .logo {
         height: initial;
         width: 65vw;
@@ -121,7 +122,8 @@ footer {
     }
 
     .page-content {
-        padding: 1.5rem !important;
+        margin: 0 !important;
+        width: 100%;
     }
 
     .navbar-collapse {

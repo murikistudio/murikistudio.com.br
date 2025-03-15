@@ -53,8 +53,8 @@ links:
 
 <div class="w-100 my-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
-        <a class="m-2 hover" target="_blank" href="{{ link.url }}">
-            <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
+        <a class="m-2 hover w-100 d-flex align-items-center justify-content-center" target="_blank" href="{{ link.url }}">
+            <img class="w-100" src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
         </a>
     {% endfor %}
 </div>
