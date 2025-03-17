@@ -1,3 +1,7 @@
+- name: Steam
+  icon: steam
+  show_on_footer: false
+  url: "https://store.steampowered.com/developer/murikistudio/"
 - name: YouTube
   icon: youtube
   show_on_footer: true
