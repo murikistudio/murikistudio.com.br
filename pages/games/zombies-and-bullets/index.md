@@ -84,6 +84,10 @@ At the end of each environment, after completing all stages, you will face a bos
     <img src="/assets/img/zombies-and-bullets/screenshot-7.webp" alt="" class="rounded-5 w-100">
 </div>
 
+## Useful Links
+
+- [Press Kit](https://drive.google.com/drive/folders/1ru7HnxeUsPPMNkLv3Skg93F-9ztDbEnc?usp=drive_link)
+
 {% include swiper.html autoplay=true %}
 
 <style>
