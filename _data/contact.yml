@@ -14,6 +14,10 @@
   icon: x
   show_on_footer: true
   url: "https://x.com/murikistudio"
+- name: Bluesky
+  icon: bluesky
+  show_on_footer: false
+  url: "https://bsky.app/profile/murikistudio.bsky.social"
 - name: Instagram
   icon: instagram
   show_on_footer: true
