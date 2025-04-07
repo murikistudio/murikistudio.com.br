@@ -46,9 +46,9 @@ featured_links:
 the soldier Jacob face armies of zombies in diverse and challenging environments.
 Prove your skills and reflexes and become the warrior of the zombie apocalypse!
 
-<h2 class="text-center">Get It On</h2>
+<h3 class="text-center mt-5">Get It On</h3>
 
-<div class="w-100 my-5 d-flex justify-content-center row-or-column align-items-center">
+<div class="w-100 mb-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
         <a class="m-2 hover" target="_blank" href="{{ link.url }}">
             <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
@@ -56,17 +56,19 @@ Prove your skills and reflexes and become the warrior of the zombie apocalypse!
     {% endfor %}
 </div>
 
-<h2 class="text-center">Featured In</h2>
+{% if page.featured_links %}
+<h3 class="text-center">Featured In</h3>
 
-<ul>
+<ul class="mb-5">
     {% for link in page.featured_links %}
-    <li>
+    <li class="text-center" style="list-style: none">
         <a class="" target="_blank" href="{{ link.url }}">
-            {{ link.title }} ({{ link.date }})
+            - {{ link.title }} ({{ link.date }})
         </a>
     </li>
     {% endfor %}
 </ul>
+{% endif %}
 
 #### Explore a Variety of Themed Environments
 The game features a range of environments such as the woods, an abandoned mine, a forest, ancient ruins, and more. Each environment is divided into multiple stages with unique paths and challenges.
