@@ -57,7 +57,7 @@ Prove your skills and reflexes and become the warrior of the zombie apocalypse!
 </div>
 
 {% if page.featured_links %}
-<h3 class="text-center">Featured In</h3>
+<h3 class="text-center">Featured On</h3>
 
 <ul class="mb-5">
     {% for link in page.featured_links %}
