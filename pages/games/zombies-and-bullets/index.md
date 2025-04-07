@@ -18,6 +18,11 @@ links:
     - name: "Steam"
       image: "steam-wishlist.webp"
       url: "https://store.steampowered.com/app/2802870/Zombies__Bullets/"
+featured_links:
+    - name: "Games Ardor"
+      title: "Top Steam Games to Look Out for in April 2025"
+      date: "2025/04/07"
+      url: "https://gamesardor.net/top-steam-games-to-look-out-for-in-april-2025/#zombies-amp-bullets-demo"
 ---
 
 # {{ page.title }}
@@ -41,6 +46,8 @@ links:
 the soldier Jacob face armies of zombies in diverse and challenging environments.
 Prove your skills and reflexes and become the warrior of the zombie apocalypse!
 
+## Get It On
+
 <div class="w-100 my-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
         <a class="m-2 hover" target="_blank" href="{{ link.url }}">
@@ -48,6 +55,20 @@ Prove your skills and reflexes and become the warrior of the zombie apocalypse!
         </a>
     {% endfor %}
 </div>
+
+## Featured In
+
+<ul>
+    {% for link in page.featured_links %}
+    <li>
+        <a class="" target="_blank" href="{{ link.url }}">
+            <li>{{ link.title }} ({{ link.date }})</li>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+
+
 
 #### Explore a Variety of Themed Environments
 The game features a range of environments such as the woods, an abandoned mine, a forest, ancient ruins, and more. Each environment is divided into multiple stages with unique paths and challenges.
