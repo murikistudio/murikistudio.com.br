@@ -62,7 +62,7 @@ Prove your skills and reflexes and become the warrior of the zombie apocalypse!
     {% for link in page.featured_links %}
     <li>
         <a class="" target="_blank" href="{{ link.url }}">
-            <li>{{ link.title }} ({{ link.date }})</li>
+            {{ link.title }} ({{ link.date }})
         </a>
     </li>
     {% endfor %}
