@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Muriki Game Studio
+title: Muriki Studio
 email: contact@murikistudio.com.br
 description: >- # this means to ignore newlines until "baseurl:"
-  Muriki Game Studio is an indie game development team based in Brazil formed in 2022.
+  Muriki Studio is an indie game development team based in Brazil formed in 2022.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://murikistudio.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  murikistudio
