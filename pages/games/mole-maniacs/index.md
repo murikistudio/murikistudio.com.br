@@ -17,6 +17,12 @@ links:
     - name: "Google Play"
       image: "google-play.webp"
       url: "https://play.google.com/store/apps/details?id=com.muriki.molemaniacs"
+    - name: "Itch.io"
+      image: "itch-io.webp"
+      url: "https://murikistudio.itch.io/mole-maniacs"
+    - name: "Game Jolt"
+      image: "game-jolt.webp"
+      url: "https://gamejolt.com/games/mole-maniacs/785385"
 ---
 
 # {{ page.title }}
