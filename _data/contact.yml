@@ -10,6 +10,10 @@
   icon: discord
   show_on_footer: true
   url: "https://discord.gg/f35uuhCvQn"
+- name: Twitch
+  icon: twitch
+  show_on_footer: false
+  url: "https://www.twitch.tv/murikistudio"
 - name: X
   icon: x
   show_on_footer: true
