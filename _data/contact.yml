@@ -26,6 +26,10 @@
   icon: instagram
   show_on_footer: true
   url: "https://www.instagram.com/murikistudio"
+- name: Facebook
+  icon: facebook
+  show_on_footer: false
+  url: "https://www.facebook.com/murikistudiobr"
 - name: TikTok
   icon: tiktok
   show_on_footer: true
