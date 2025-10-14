@@ -5,24 +5,29 @@ permalink: games/zombies-and-bullets
 swiper: true
 logo_share: zombies-and-bullets/logo.webp
 screenshots:
-    - screenshot-0.webp
-    - screenshot-1.webp
-    - screenshot-2.webp
-    - screenshot-3.webp
-    - screenshot-4.webp
-    - screenshot-5.webp
-    - screenshot-6.webp
-    - screenshot-7.webp
-    - screenshot-8.webp
+    - 0.webp
+    - 1.webp
+    - 2.webp
+    - 3.webp
+    - 4.webp
+    - 5.webp
+    - 6.webp
+    - 7.webp
+    - 8.webp
+    - 9.webp
+    - 10.webp
 links:
     - name: "Steam"
       image: "steam-wishlist.webp"
-      url: "https://store.steampowered.com/app/2802870/Zombies__Bullets/"
+      url: "https://store.steampowered.com/app/3523830/Zombies__Bullets_Demo/"
 featured_links:
     - name: "Games Ardor"
       title: "Top Steam Games to Look Out for in April 2025"
       date: "2025/04/07"
       url: "https://gamesardor.net/top-steam-games-to-look-out-for-in-april-2025/#zombies-amp-bullets-demo"
+useful_links:
+    - name: "Press Kit"
+      url: "https://drive.google.com/drive/folders/1ru7HnxeUsPPMNkLv3Skg93F-9ztDbEnc?usp=drive_link"
 ---
 
 # {{ page.title }}
@@ -42,16 +47,15 @@ featured_links:
     <div class="swiper-button-next"></div>
 </div>
 
-**Zombies & Bullets** is a 3D top-down action shooter game where you must help
-the soldier Jacob face armies of zombies in diverse and challenging environments.
-Prove your skills and reflexes and become the warrior of the zombie apocalypse!
-
-<h3 class="text-center mt-5">Get It On</h3>
+**Zombies & Bullets** is a **3D top-down action shooter** game where you must
+help the soldier **Jacob** face armies of **zombies** in varied scenarios
+full of **challenges**. Prove your **skills** and **reflexes** and become
+the warrior of the zombie apocalypse!
 
 <div class="w-100 mb-5 d-flex justify-content-center row-or-column align-items-center">
     {% for link in page.links %}
         <a class="m-2 hover" target="_blank" href="{{ link.url }}">
-            <img src="/assets/img/get-{{ link.image }}" alt="Get it on {{ link.name }}" style="max-width: 250px">
+            <img src="/assets/img/get-{{ link.image }}" alt="Play Now On {{ link.name }}" style="max-width: 250px">
         </a>
     {% endfor %}
 </div>
@@ -70,44 +74,65 @@ Prove your skills and reflexes and become the warrior of the zombie apocalypse!
 </ul>
 {% endif %}
 
-#### Explore a Variety of Themed Environments
-The game features a range of environments such as the woods, an abandoned mine, a forest, ancient ruins, and more. Each environment is divided into multiple stages with unique paths and challenges.
+#### Skills
+You can improve your **skills** in **camps** as you gain **experience levels**.
+You can also collect **backpacks** that grant **unique abilities** while equipped. Adapt Jacob to your **play style**!
 
 <div class="my-4 text-center">
-    <img src="/assets/img/zombies-and-bullets/screenshot-6.webp" alt="" class="rounded-5 w-100">
+    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+        <source src="/assets/img/zombies-and-bullets/gif_skills.webm">
+    </video>
 </div>
 
-#### Defeat Massive Waves of Enemies
-As you progress through the stages, you’ll come face to face with relentless waves of enemies that will corner you, forcing you to defeat them all to advance. Use your arsenal, movement, and strategy to overcome your foes and keep moving forward!
+#### Weapons
+The game features a variety of **weapons** like a shotgun, submachine gun, grenade launcher, flamethrower, electric cannon, grenades, etc.
+Explore the **possibilities** for every situation!
 
 <div class="my-4 text-center">
-    <img src="/assets/img/zombies-and-bullets/screenshot-1.webp" alt="" class="rounded-5 w-100">
+    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+        <source src="/assets/img/zombies-and-bullets/gif_weapons.webm">
+    </video>
 </div>
 
-#### Collect Devastating Weapons to Aid in the Carnage
-The game offers a variety of weapons to assist in your zombie massacre, including a shotgun, submachine gun, grenade launcher, flamethrower, electric cannon, proximity mines, and more. Each weapon has its own strengths and weaknesses for different situations, so explore all possibilities!
+#### Enemies
+You will come face-to-face with **hordes of enemies** that will corner you, forcing you to **defeat them all** to keep advancing.
+Use different **strategies** for different **enemies**!
 
 <div class="my-4 text-center">
-    <img src="/assets/img/zombies-and-bullets/screenshot-4.webp" alt="" class="rounded-5 w-100">
+    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+        <source src="/assets/img/zombies-and-bullets/gif_enemies.webm">
+    </video>
 </div>
 
-#### Purchase Upgrades for Yourself and Your Weapons
-Defeating enemies and breaking crates throughout the levels will grant you orbs, which can be used to purchase upgrades for Jacob and his weapons in the pause menu. Max health, reload speed, damage, and ammo capacity are some of the upgrades you can buy.
+#### Scenarios and Levels
+**Explore scenarios** like the grove, abandoned mine, forest, ancient ruins, etc.
+Each scenario is **divided** into several **levels** with diverse **challenges**.
 
 <div class="my-4 text-center">
-    <img src="/assets/img/zombies-and-bullets/screenshot-5.webp" alt="" class="rounded-5 w-100">
+    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+        <source src="/assets/img/zombies-and-bullets/gif_levels.webm">
+    </video>
 </div>
 
-#### Test Your Skills Against Epic Bosses
-At the end of each environment, after completing all stages, you will face a boss. Boss fights will put your skills and reflexes to the test, so don’t let your guard down when battling them!
+#### Bosses
+The **bosses** will make you prove your **skills** and **reflexes**,
+forcing you to use your entire arsenal of **weapons** and **movements**.
 
 <div class="my-4 text-center">
-    <img src="/assets/img/zombies-and-bullets/screenshot-7.webp" alt="" class="rounded-5 w-100">
+    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+        <source src="/assets/img/zombies-and-bullets/gif_bosses.webm">
+    </video>
 </div>
 
 ## Useful Links
 
-- [Press Kit](https://drive.google.com/drive/folders/1ru7HnxeUsPPMNkLv3Skg93F-9ztDbEnc?usp=drive_link)
+<ul>
+    {% for link in page.useful_links %}
+        <li>
+            <a target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+        </li>
+    {% endfor %}
+</ul>
 
 {% include swiper.html autoplay=true %}
 
