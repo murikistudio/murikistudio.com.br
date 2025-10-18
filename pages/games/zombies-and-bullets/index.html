@@ -56,18 +56,19 @@ useful_links:
 
     <!-- Content -->
     <div class="page-content pt-5 text-white">
-        <p data-translate="zombies-and-bullets-desc-long"></p>
+        <p data-translate="zombies-and-bullets-desc-long" data-aos="fade-up"></p>
 
         {% include game_links.html links=page.links %}
 
         {% if page.featured_links %}
-        <h3 class="text-center" data-translate="featured-on"></h3>
 
-        <ul class="mb-5">
+        <h3 class="text-center" data-translate="featured-on" data-aos="fade-up"></h3>
+
+        <ul class="mb-5" data-aos="fade-up">
             {% for link in page.featured_links %}
             <li class="text-center" style="list-style: none">
                 <a class="" target="_blank" href="{{ link.url }}">
-                    - {{ link.title }} ({{ link.date }})
+                    {{ link.title }} ({{ link.date }})
                 </a>
             </li>
             {% endfor %}
@@ -76,25 +77,28 @@ useful_links:
 
         <!-- Topics -->
         {% for topic in page.topics %}
-            <h4 data-translate="{{ topic.title }}"></h4>
-            <p data-translate="{{ topic.description }}"></p>
-
-            <div class="my-4 text-center">
-                <video class="rounded-5 w-100" autoplay muted loop playsinline>
-                    <source src="/assets/img/zombies-and-bullets/{{ topic.video }}">
-                </video>
+            <div data-aos="fade-up">
+                <h4 data-translate="{{ topic.title }}"></h4>
+                <p data-translate="{{ topic.description }}"></p>
+                <div class="my-4 text-center">
+                    <video class="rounded-5 w-100" autoplay muted loop playsinline>
+                        <source src="/assets/img/zombies-and-bullets/{{ topic.video }}">
+                    </video>
+                </div>
             </div>
         {% endfor %}
 
-        <h2 data-translate="useful-links"></h2>
+        <div data-aos="fade-up">
+            <h2 data-translate="useful-links"></h2>
 
-        <ul>
-            {% for link in page.useful_links %}
-                <li>
-                    <a target="_blank" href="{{ link.url }}">{{ link.name }}</a>
-                </li>
-            {% endfor %}
-        </ul>
+            <ul>
+                {% for link in page.useful_links %}
+                    <li>
+                        <a target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
 
         {% include swiper.html autoplay=true %}
     </div>
