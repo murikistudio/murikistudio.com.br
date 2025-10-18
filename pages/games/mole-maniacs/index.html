@@ -34,17 +34,21 @@ legal_information:
 
     <hr>
 
-    {% include game_screenshots.html name="Mole Maniacs" key="mole-maniacs" screenshots=page.screenshots %}
-
-    <hr>
-
-    <div class="page-content pt-5 text-white">
-        <p data-translate="mole-maniacs-desc-long" data-aos="fade-up"></p>
-
+    <div class="page-content text-white">
+        <p class="mt-4" data-translate="mole-maniacs-desc-long" data-aos="fade-up"></p>
         <ul data-translate="mole-maniacs-topics" data-aos="fade-up"></ul>
+        <div class="mt-4">
+            {% include game_links.html links=page.links %}
+        </div>
+    </div>
 
-        {% include game_links.html links=page.links %}
+    <div class="my-3">
+        <hr>
+        {% include game_screenshots.html name="Mole Maniacs" key="mole-maniacs" screenshots=page.screenshots %}
+        <hr>
+    </div>
 
+    <div class="page-content text-white">
         <h2 data-translate="legal-information" data-aos="fade-up"></h2>
 
         <ul data-aos="fade-up">

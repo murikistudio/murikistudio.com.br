@@ -48,33 +48,39 @@ useful_links:
 <div class="home-content d-flex flex-column">
     {% include game_banner.html name="Zombies & Bullets" key="zombies-and-bullets" %}
 
-    <hr>
-
-    {% include game_screenshots.html name="Zombies & Bullets" key="zombies-and-bullets" screenshots=page.screenshots %}
-
-    <hr>
 
     <!-- Content -->
-    <div class="page-content pt-5 text-white">
-        <p data-translate="zombies-and-bullets-desc-long" data-aos="fade-up"></p>
+    <div class="page-content text-white">
+        <p class="mt-4" data-translate="zombies-and-bullets-desc-long" data-aos="fade-up"></p>
 
-        {% include game_links.html links=page.links %}
+        <div class="mt-5">
+            {% include game_links.html links=page.links %}
+        </div>
 
+        <!-- Featured -->
         {% if page.featured_links %}
-
-        <h3 class="text-center" data-translate="featured-on" data-aos="fade-up"></h3>
-
-        <ul class="mb-5" data-aos="fade-up">
-            {% for link in page.featured_links %}
-            <li class="text-center" style="list-style: none">
-                <a class="" target="_blank" href="{{ link.url }}">
-                    {{ link.title }} ({{ link.date }})
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
+            <div class="mt-5">
+                <h3 class="text-center" data-translate="featured-on" data-aos="fade-up"></h3>
+                <ul data-aos="fade-up">
+                    {% for link in page.featured_links %}
+                    <li class="text-center" style="list-style: none">
+                        <a class="" target="_blank" href="{{ link.url }}">
+                            {{ link.title }} ({{ link.date }})
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         {% endif %}
+    </div>
 
+    <div class="my-3">
+        <hr>
+        {% include game_screenshots.html name="Zombies & Bullets" key="zombies-and-bullets" screenshots=page.screenshots %}
+        <hr>
+    </div>
+
+    <div class="page-content mt-3 text-white">
         <!-- Topics -->
         {% for topic in page.topics %}
             <div data-aos="fade-up">
