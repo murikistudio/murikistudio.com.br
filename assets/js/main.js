@@ -40,6 +40,7 @@ function translateElements() {
         const element = $(this);
 
         if (!TRANSLATIONS[element.attr('data-translate')]) {
+            element.html(element.attr('data-translate'));
             return;
         }
 

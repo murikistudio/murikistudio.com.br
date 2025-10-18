@@ -1,0 +1,139 @@
+---
+layout: default
+title: Zombies & Bullets
+permalink: games/zombies-and-bullets
+swiper: true
+logo_share: zombies-and-bullets/logo.webp
+screenshots:
+    - 1.webp
+    - 2.webp
+    - 3.webp
+    - 4.webp
+    - 5.webp
+    - 6.webp
+    - 7.webp
+    - 8.webp
+    - 9.webp
+    - 10.webp
+links:
+    - name: "Steam"
+      image: "steam-wishlist.webp"
+      url: "https://store.steampowered.com/app/3523830/Zombies__Bullets_Demo/"
+featured_links:
+    - name: "Games Ardor"
+      title: "Top Steam Games to Look Out for in April 2025"
+      date: "2025/04/07"
+      url: "https://gamesardor.net/top-steam-games-to-look-out-for-in-april-2025/#zombies-amp-bullets-demo"
+topics:
+    - title: "zombies-and-bullets-skills"
+      description: "zombies-and-bullets-skills-desc"
+      video: "gif_skills.webm"
+    - title: "zombies-and-bullets-weapons"
+      description: "zombies-and-bullets-weapons-desc"
+      video: "gif_weapons.webm"
+    - title: "zombies-and-bullets-enemies"
+      description: "zombies-and-bullets-enemies-desc"
+      video: "gif_enemies.webm"
+    - title: "zombies-and-bullets-levels"
+      description: "zombies-and-bullets-levels-desc"
+      video: "gif_levels.webm"
+    - title: "zombies-and-bullets-bosses"
+      description: "zombies-and-bullets-bosses-desc"
+      video: "gif_bosses.webm"
+useful_links:
+    - name: "Press Kit"
+      url: "https://drive.google.com/drive/folders/1ru7HnxeUsPPMNkLv3Skg93F-9ztDbEnc?usp=drive_link"
+---
+
+<div class="home-content d-flex flex-column">
+    <!-- Banner -->
+    <div class="d-flex flex-column fixed-background align-items-center justify-content-center"
+        style="background: url('/assets/img/zombies-and-bullets/banner.webp'); min-height: 70vh; background-position: center -30vh !important;"
+    >
+        <img class="logo-home" alt="Muriki Studio" data-aos="fade-up" src="/assets/img/zombies-and-bullets/logo.webp">
+    </div>
+
+    <hr>
+
+    <!-- Screenshots -->
+    <div class="swiper w-100">
+        <div class="swiper-wrapper">
+            {% for screenshot in page.screenshots %}
+            <div class="swiper-slide">
+                <div class="d-flex flex-column overflow-hidden align-items-center">
+                    <img class="w-100" style="max-width: 960px;" loading="lazy" src="/assets/img/zombies-and-bullets/{{ screenshot }}" alt="{{ screenshot }}">
+                    <div class="screenshot-background" style="background: url('/assets/img/zombies-and-bullets/{{ screenshot }}');"></div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <hr>
+
+    <!-- Content -->
+    <div class="page-content pt-5 text-white">
+        <p data-translate="zombies-and-bullets-desc-long"></p>
+
+        <div class="w-100 mb-5 d-flex justify-content-center row-or-column align-items-center">
+            {% for link in page.links %}
+                <a class="m-2 hover" target="_blank" href="{{ link.url }}">
+                    <img src="/assets/img/get-{{ link.image }}" alt="Play Now On {{ link.name }}" title="{{ link.name }}" style="max-width: 250px">
+                </a>
+            {% endfor %}
+        </div>
+
+        {% if page.featured_links %}
+        <h3 class="text-center" data-translate="featured-on"></h3>
+
+        <ul class="mb-5">
+            {% for link in page.featured_links %}
+            <li class="text-center" style="list-style: none">
+                <a class="" target="_blank" href="{{ link.url }}">
+                    - {{ link.title }} ({{ link.date }})
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+        <!-- Topics -->
+        {% for topic in page.topics %}
+            <h4 data-translate="{{ topic.title }}"></h4>
+            <p data-translate="{{ topic.description }}"></p>
+
+            <div class="my-4 text-center">
+                <video class="rounded-5 w-100" autoplay muted loop playsinline>
+                    <source src="/assets/img/zombies-and-bullets/{{ topic.video }}">
+                </video>
+            </div>
+        {% endfor %}
+
+        <h2 data-translate="useful-links"></h2>
+
+        <ul>
+            {% for link in page.useful_links %}
+                <li>
+                    <a target="_blank" href="{{ link.url }}">{{ link.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% include swiper.html autoplay=true %}
+    </div>
+</div>
+
+<style>
+.row-or-column {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 860px) {
+    .row-or-column {
+        flex-direction: column;
+    }
+}
+</style>
