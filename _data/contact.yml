@@ -1,52 +1,48 @@
 - name: Steam
   icon: steam
-  show_on_footer: false
+  featured: true
   url: "https://store.steampowered.com/developer/murikistudio/"
 - name: YouTube
   icon: youtube
-  show_on_footer: true
+  featured: true
   url: "https://www.youtube.com/@murikistudio"
-- name: Discord
-  icon: discord
-  show_on_footer: true
-  url: "https://discord.gg/f35uuhCvQn"
 - name: Twitch
   icon: twitch
-  show_on_footer: false
+  featured: true
   url: "https://www.twitch.tv/murikistudio"
-- name: X
-  icon: x
-  show_on_footer: true
-  url: "https://x.com/murikistudio"
-- name: Bluesky
-  icon: bluesky
-  show_on_footer: false
-  url: "https://bsky.app/profile/murikistudio.bsky.social"
 - name: Instagram
   icon: instagram
-  show_on_footer: true
+  featured: true
   url: "https://www.instagram.com/murikistudio"
 - name: Facebook
   icon: facebook
-  show_on_footer: false
+  featured: false
   url: "https://www.facebook.com/murikistudiobr"
 - name: TikTok
   icon: tiktok
-  show_on_footer: true
+  featured: true
   url: "https://www.tiktok.com/@murikistudio"
-- name: GitHub
-  icon: github
-  show_on_footer: false
-  url: "https://github.com/murikistudio"
+- name: Discord
+  icon: discord
+  featured: true
+  url: "https://discord.gg/f35uuhCvQn"
 - name: itch.io
   icon: itch-io
-  show_on_footer: true
+  featured: false
   url: "https://murikistudio.itch.io/"
 - name: LinkedIn
   icon: linkedin
-  show_on_footer: false
+  featured: false
   url: "https://www.linkedin.com/company/murikistudio"
+- name: X
+  icon: x
+  featured: false
+  url: "https://x.com/murikistudio"
+- name: Bluesky
+  icon: bluesky
+  featured: false
+  url: "https://bsky.app/profile/murikistudio.bsky.social"
 - name: contact@murikistudio.com.br
   icon: email
-  show_on_footer: false
+  featured: false
   url: "mailto:contact@murikistudio.com.br"

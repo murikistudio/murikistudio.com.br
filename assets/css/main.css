@@ -12,6 +12,7 @@ html, body {
 
 body {
     display: flex;
+    color: white !important;
     flex-direction: column;
     min-height: 100vh;
     user-select: none;
@@ -19,6 +20,13 @@ body {
     background-attachment: fixed;
     background-blend-mode: luminosity;
     animation: background-scroll 60s linear infinite;
+}
+
+hr {
+    margin: 0 !important;
+    border-top: 4px solid !important;
+    border-color: rgb(0, 0, 0) !important;
+    opacity: 1 !important;
 }
 
 a {
@@ -42,7 +50,7 @@ footer {
 .social-icon:hover {
     color: white;
     opacity: 0.9;
-    padding: 2px;
+    padding: 4px;
 }
 
 .social-icon-img:hover {
@@ -54,9 +62,9 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
-    width: 34px;
-    height: 28px;
-    padding: 4px;
+    width: 48px;
+    height: 40px;
+    padding: 8px;
     border-style: solid;
     border-width: 1px;
     border-right-style: none;
@@ -74,22 +82,6 @@ footer {
     border-right-style: solid;
 }
 
-.logo {
-    height: 50vh;
-}
-
-.logo-text {
-    width: 60vh;
-}
-
-.banner {
-    background-attachment: fixed;
-    background-size: contain;
-    height: 100%;
-    background-image: url(/assets/img/banner-background.webp);
-    animation: background-scroll 60s linear infinite;
-}
-
 @keyframes background-scroll {
     0% {
         background-position: 0px 0px
@@ -104,6 +96,10 @@ footer {
     }
 }
 
+.logo-home {
+    width: 600px;
+}
+
 .page-content {
     user-select: text;
     width: 768px;
@@ -112,13 +108,8 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .logo {
-        height: initial;
-        width: 65vw;
-    }
-
-    .logo-text {
-        width: 100vw;
+    .logo-home {
+        width: 85%;
     }
 
     .page-content {
@@ -165,4 +156,38 @@ li.nav-item:not(:last-child) {
 
 .hover:hover {
     filter: brightness(1.2);
+}
+
+.btn-lang {
+    background-size: 100% 100%;
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    top: 4.5rem;
+    right: 1rem;
+    z-index: 1000;
+    display: none;
+    cursor: pointer;
+}
+
+.btn-lang-ptbr {
+    background-image: url('/assets/img/icons/ptbr.svg');
+    display: block;
+}
+
+.btn-lang-en {
+    background-image: url('/assets/img/icons/en.svg');
+    display: block;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 4px black;
+}
+
+div .fixed-background {
+    position: relative;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+    z-index: 0;
 }

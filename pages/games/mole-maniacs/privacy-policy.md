@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Privacy Policy (Mole Maniacs)
 permalink: games/mole-maniacs/privacy-policy
 ---

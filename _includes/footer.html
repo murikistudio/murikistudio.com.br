@@ -1,18 +1,9 @@
 <footer class="footer w-100 px-2 py-3 bg-bars text-white text-center">
-    <div class="d-flex flex-row">
-        {% for contact in site.data.contact %}
-            {% if contact.show_on_footer %}
-                <a class="social-icon" href="{{ contact.url }}" alt="{{ contact.name }}" target="_blank">
-                    <img class="w-100 h-100 social-icon-img" src="/assets/img/icons/{{ contact.icon }}.svg" alt="{{ contact.name }}">
-                </a>
-            {% endif %}
-        {% endfor %}
-    </div>
     <div class="w-100 d-inline-flex align-items-center justify-content-around">
-        <p class="mb-0 mt-2" style="font-size: 0.9rem; line-height: 1rem;">
+        <p class="mb-0" style="font-size: 0.9rem; line-height: 1rem;">
             <small>
                 Copyright {{ site.title }} ©2022 - <span id="currentYear">{{ 'now' | date: "%Y" }}</span>.
-                Read this website's <a href="{{ site.baseurl }}/privacy-policy">Privacy Policy</a>.
+                <span data-translate="read-this-websites">Read this website's</span> <a href="{{ site.baseurl }}/privacy-policy" data-translate="privacy-policy">Privacy Policy</a>.
             </small>
         </p>
         <script>

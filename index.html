@@ -1,0 +1,71 @@
+---
+layout: default
+title: Home
+---
+<div class="home-content d-flex flex-column">
+    <!-- Logo -->
+    <div class="d-flex flex-column fixed-background align-items-center justify-content-center pt-5"
+        style="background: url('/assets/img/banner-background.webp'); min-height: 100vh;"
+    >
+        <img class="logo-home" data-aos="fade-up" src="/assets/img/logo-text.svg">
+
+        <h5 data-aos="fade-up" class="mt-0 px-3 text-center logo-home">
+            <span data-translate="muriki-about-short"></span>
+            <img src="/assets/img/icons/ptbr.svg" width="16">
+        </h5>
+
+        <div class="d-inline-flex align-items-center justify-content-center mt-4" data-aos="fade-up">
+            {% for contact in site.data.contact %}
+                {% if contact.featured %}
+                    <a class="social-icon" href="{{ contact.url }}" alt="{{ contact.name }}" title="{{ contact.name }}" target="_blank">
+                        <img class="w-100 h-100 social-icon-img" src="/assets/img/icons/{{ contact.icon }}.svg" alt="{{ contact.name }}">
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Games -->
+    {% for game in site.data.games %}
+        <a href="/games/{{ game.key }}" class="hover d-flex flex-column fixed-background align-items-center justify-content-center"
+            style="background: url('/assets/img/{{ game.key }}/banner.webp'); min-height: 70vh;"
+        >
+            <img class="logo-home" data-aos="fade-up" src="/assets/img/{{ game.key }}/logo.webp">
+
+            <h5 data-aos="fade-up" class="mt-4 px-3 text-center logo-home text-white text-shadow">
+                <span data-translate="{{ game.key }}-desc-tiny"></span>
+            </h5>
+
+        </a>
+        <hr>
+    {% endfor %}
+
+    <div class="py-5 d-flex flex-column align-items-center justify-content-center bg-dark">
+        <!-- Team -->
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <h2 class="my-0" data-aos="fade-up" data-translate="the-team"></h2>
+            <img class="logo-home rounded-pill logo-home mt-4" data-aos="fade-up" src="/assets/img/team.webp">
+            <p class="logo-home text-center mt-4" data-aos="fade-up" data-translate="muriki-about-formation"></p>
+            <ul class="my-2" data-aos="fade-up">
+                <li data-translate="about-diego"></li>
+                <li data-translate="about-joel"></li>
+                <li data-translate="about-luciano"></li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="d-flex flex-column align-items-center justify-content-center mt-5" style="max-width: 256px;">
+            <h2 class="my-0" data-aos="fade-up" data-translate="contact"></h2>
+            <div class="container text-center mt-3" data-aos="fade-up">
+                {% for contact in site.data.contact %}
+                    <a class="btn m-1 p-1 col" href="{{ contact.url }}" alt="{{ contact.name }}" title="{{ contact.name }}" target="_blank">
+                        <img class="mr-2 social-icon-img" src="/assets/img/icons/{{ contact.icon }}.svg" width="32">
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>

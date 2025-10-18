@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Mole Maniacs
 permalink: games/mole-maniacs
 swiper: true

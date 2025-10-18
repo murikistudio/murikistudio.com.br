@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="64px"
+   height="64px"
+   viewBox="-0.5 0 20 20"
+   version="1.1"
+   fill="#000000"
+   id="svg1"
+   sodipodi:docname="twitch.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#cbcbcb"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="6.5"
+     inkscape:cx="8.4615385"
+     inkscape:cy="26.923077"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier"
+     transform="matrix(0.96330972,0,0,0.96330972,0.3485577,0.36690283)">
+    <title
+       id="title1">twitch [#ffffff]</title>
+    <desc
+       id="desc1">Created with Sketch.</desc>
+    <defs
+       id="defs1" />
+    <g
+       id="Page-1"
+       stroke="none"
+       stroke-width="1"
+       fill="none"
+       fill-rule="evenodd">
+      <g
+         id="Dribbble-Light-Preview"
+         transform="translate(-141,-7399)"
+         fill="#ffffff">
+        <g
+           id="icons"
+           transform="translate(56,160)">
+          <path
+             d="m 97,7249 h 2 v -5 h -2 z m -5,0 h 2 v -5 h -2 z m 10,1.307 V 7241 H 88 v 12 h 4 v 2.953 L 94.56,7253 h 4.78 z M 98.907,7256 h -3.914 l -2.606,3 H 90 v -3 h -5 v -13.52 L 86.3,7239 H 104 v 12.173 z"
+             id="twitch-[#ffffff]" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

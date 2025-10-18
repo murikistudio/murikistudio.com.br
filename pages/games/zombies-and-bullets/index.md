@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Zombies & Bullets
 permalink: games/zombies-and-bullets
 swiper: true
