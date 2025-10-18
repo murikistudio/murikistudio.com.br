@@ -1,0 +1,72 @@
+---
+layout: default
+title: Mole Maniacs
+permalink: games/mole-maniacs
+swiper: true
+logo_share: mole-maniacs/logo.webp
+screenshots:
+    - screenshot-1.webp
+    - screenshot-2.webp
+    - screenshot-3.webp
+    - screenshot-4.webp
+    - screenshot-5.webp
+    - screenshot-6.webp
+    - screenshot-7.webp
+links:
+    - name: "Google Play"
+      image: "google-play.webp"
+      url: "https://play.google.com/store/apps/details?id=com.muriki.molemaniacs"
+    - name: "Itch.io"
+      image: "itch-io.webp"
+      url: "https://murikistudio.itch.io/mole-maniacs"
+    - name: "Game Jolt"
+      image: "game-jolt.webp"
+      url: "https://gamejolt.com/games/mole-maniacs/785385"
+legal_information:
+    - name: "terms-and-conditions"
+      url: "/terms-and-conditions"
+    - name: "privacy-policy"
+      url: "/privacy-policy"
+---
+
+<div class="home-content d-flex flex-column">
+    {% include game_banner.html name="Mole Maniacs" key="mole-maniacs" %}
+
+    <hr>
+
+    {% include game_screenshots.html name="Mole Maniacs" key="mole-maniacs" screenshots=page.screenshots %}
+
+    <hr>
+
+    <div class="page-content pt-5 text-white">
+        <p data-translate="mole-maniacs-desc-long" data-aos="fade-up"></p>
+
+        <ul data-translate="mole-maniacs-topics" data-aos="fade-up"></ul>
+
+        {% include game_links.html links=page.links %}
+
+        <h2 data-translate="legal-information" data-aos="fade-up"></h2>
+
+        <ul data-aos="fade-up">
+            {% for link in page.legal_information %}
+            <li>
+                <a data-translate="{{ link.name }}" href="{{ site.url }}/{{ page.permalink }}/terms-and-conditions"></a>
+            </li>
+            {% endfor %}
+        </ul>
+
+        {% include swiper.html autoplay=true %}
+    </div>
+</div>
+
+<style>
+.row-or-column {
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 860px) {
+    .row-or-column {
+        flex-direction: column;
+    }
+}
+</style>

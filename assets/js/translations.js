@@ -1,5 +1,13 @@
 const TRANSLATIONS = {
     // Generic
+    'legal-information': {
+        'en': 'Legal Information',
+        'ptbr': 'Informações Legais',
+    },
+    'terms-and-conditions': {
+        'en': 'Terms and Conditions',
+        'ptbr': 'Termos e Condições',
+    },
     'privacy-policy': {
         'en': 'Privacy Policy',
         'ptbr': 'Política de Privacidade',
@@ -101,5 +109,25 @@ const TRANSLATIONS = {
     'mole-maniacs-desc-tiny': {
         'en': 'Mole Maniacs is a Whack-A-Mole style game: a game that\'s not just a hit, but lots of them!',
         'ptbr': 'Mole Maniacs é um jogo no estilo Whack-A-Mole: um jogo de muitas marteladas!',
+    },
+
+    // Mole Maniacs
+    'mole-maniacs-desc-long': {
+        'en': '<b>Mole Maniacs</b> is a <i>Whack-A-Mole</i> style game: a game that\'s not just a hit, but lots of them!',
+        'ptbr': '<b>Mole Maniacs</b> é um jogo no estilo <i>Whack-A-Mole</i>: um jogo de muitas marteladas!',
+    },
+    'mole-maniacs-topics': {
+        'en': `<li>Complete missions on different levels!</li>
+            <li>Submit scores on world leaderboards!</li>
+            <li>Hit the moles!</li>
+            <li>Get coins by not hitting sheep!</li>
+            <li>Collect coins to buy new hammers!</li>
+            <li>Don't let your energy bar go down to zero!</li>`,
+        'ptbr': `<li>Complete missões em diferentes fases!</li>
+            <li>Envie suas pontuações nas tabelas de classificação mundiais!</li>
+            <li>Acerte as toupeiras!</li>
+            <li>Ganhe moedas não acertando as ovelhas!</li>
+            <li>Colete moedas para comprar novos martelos!</li>
+            <li>Não deixe sua barra de energia chegar a zero!</li>`,
     },
 };
