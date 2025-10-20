@@ -4,6 +4,19 @@
             <img src="/assets/img/logo.svg" alt="Logo" style="width: 1.5rem">
             <span class="px-2" style="vertical-align: middle">{{ site.title }}</span>
         </a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarAnchors"
+            aria-controls="navbarAnchors" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarAnchors">
+            <ul class="navbar-nav" style="min-width: 350px;">
+                {% for item in site.data.toc %}
+                <li class="nav-item" style="border-style: none;">
+                    <a class="nav-link active text-white" aria-current="page" href="{{ item.url }}" data-translate="{{ item.title }}"></a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 
     <!-- Language -->

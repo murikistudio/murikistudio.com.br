@@ -24,13 +24,17 @@ const TRANSLATIONS = {
         'en': 'Redirecting to new page...',
         'ptbr': 'Redirecionando para nova página...',
     },
-    'about': {
-        'en': 'About',
-        'ptbr': 'Sobre',
+    'home': {
+        'en': 'Home',
+        'ptbr': 'Início',
     },
     'games': {
         'en': 'Games',
         'ptbr': 'Jogos',
+    },
+    'about': {
+        'en': 'About',
+        'ptbr': 'Sobre',
     },
 
     // Homepage
