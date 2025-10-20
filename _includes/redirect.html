@@ -1,0 +1,10 @@
+<script>
+    $(document).ready(function() {
+        const url = "{{ include.redirect_to }}";
+        console.log('Redirecting to:', url);
+
+        setTimeout(function() {
+            window.location.href = url;
+        }, 2000);
+    });
+</script>

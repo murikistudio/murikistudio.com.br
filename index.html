@@ -4,7 +4,7 @@ title: Home
 ---
 <div class="home-content d-flex flex-column">
     <!-- Logo -->
-    <div class="d-flex flex-column fixed-background align-items-center justify-content-center pt-5"
+    <div id="" class="d-flex flex-column fixed-background align-items-center justify-content-center pt-5"
         style="background: url('/assets/img/banner-background.webp'); min-height: 100vh;"
     >
         <img class="logo-home" alt="Muriki Studio" data-aos="fade-up" src="/assets/img/logo-text.svg">
@@ -25,7 +25,7 @@ title: Home
         </div>
     </div>
 
-    <hr>
+    <hr id="games">
 
     <!-- Games -->
     {% for game in site.data.games %}
@@ -42,9 +42,9 @@ title: Home
         <hr>
     {% endfor %}
 
-    <div class="py-5 d-flex flex-column align-items-center justify-content-center">
+    <div id="about" class="py-5 d-flex flex-column align-items-center justify-content-center">
         <!-- Team -->
-        <div class="d-flex flex-column align-items-center justify-content-center">
+        <div id="team" class="d-flex flex-column align-items-center justify-content-center">
             <h2 class="my-0" data-aos="fade-up" data-translate="the-team"></h2>
             <img class="logo-home rounded-pill logo-home mt-4" data-aos="fade-up" src="/assets/img/team.webp" alt="Muriki Team">
             <p class="logo-home text-center mt-4" data-aos="fade-up" data-translate="muriki-about-formation"></p>
@@ -56,7 +56,7 @@ title: Home
         </div>
 
         <!-- Contact -->
-        <div class="d-flex flex-column align-items-center justify-content-center mt-5" style="max-width: 256px;">
+        <div id="contact" class="d-flex flex-column align-items-center justify-content-center mt-5" style="max-width: 256px;">
             <h2 class="my-0" data-aos="fade-up" data-translate="contact"></h2>
             <div class="container text-center mt-3" data-aos="fade-up">
                 {% for contact in site.data.contact %}

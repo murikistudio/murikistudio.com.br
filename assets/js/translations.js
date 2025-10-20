@@ -20,6 +20,18 @@ const TRANSLATIONS = {
         'en': 'Useful Links',
         'ptbr': 'Links Úteis',
     },
+    'redirecting': {
+        'en': 'Redirecting to new page...',
+        'ptbr': 'Redirecionando para nova página...',
+    },
+    'about': {
+        'en': 'About',
+        'ptbr': 'Sobre',
+    },
+    'games': {
+        'en': 'Games',
+        'ptbr': 'Jogos',
+    },
 
     // Homepage
     'muriki-about-short': {
