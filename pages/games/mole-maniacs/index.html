@@ -24,9 +24,9 @@ links:
       url: "https://gamejolt.com/games/mole-maniacs/785385"
 legal_information:
     - name: "terms-and-conditions"
-      url: "/terms-and-conditions"
+      url: "terms-and-conditions"
     - name: "privacy-policy"
-      url: "/privacy-policy"
+      url: "privacy-policy"
 ---
 
 <div class="home-content d-flex flex-column">
@@ -54,7 +54,7 @@ legal_information:
         <ul data-aos="fade-up">
             {% for link in page.legal_information %}
             <li>
-                <a data-translate="{{ link.name }}" href="{{ site.url }}/{{ page.permalink }}/terms-and-conditions"></a>
+                <a data-translate="{{ link.name }}" href="{{ site.url }}/{{ page.permalink }}/{{ link.url }}"></a>
             </li>
             {% endfor %}
         </ul>
