@@ -21,6 +21,14 @@ links:
       image: "steam-wishlist.webp"
       url: "https://store.steampowered.com/app/3523830/Zombies__Bullets_Demo/"
 featured_links:
+    - name: "Lone Wulf Studio"
+      title: "2025 Indie Game 15 Second Showcase"
+      date: "2025/12/13"
+      url: "https://youtu.be/yOUwfZ1N3VU?t=389"
+    - name: "Godot Engine"
+      title: "Godot Engine - 2025 Showreel"
+      date: "2025/11/07"
+      url: "https://youtu.be/7ZwEmxihlw4?t=143"
     - name: "Games Ardor"
       title: "Top Steam Games to Look Out for in April 2025"
       date: "2025/04/07"
@@ -67,7 +75,7 @@ useful_links:
                     {% for link in page.featured_links %}
                     <li class="text-center" style="list-style: none">
                         <a class="" target="_blank" href="{{ link.url }}">
-                            {{ link.title }} ({{ link.date }})
+                            - {{ link.title }} ({{ link.date }})
                         </a>
                     </li>
                     {% endfor %}

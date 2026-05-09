@@ -77,16 +77,16 @@ const TRANSLATIONS = {
         'ptbr': 'Zombies & Bullets é um jogo de tiro 3D com visão top-down. Torne-se o guerreiro do apocalipse zumbi!',
     },
     'zombies-and-bullets-desc-long': {
-        'en': '<b>Zombies & Bullets</b> is a <b>3D top-down action shooter</b> game where you must help the soldier <b>Jacob</b> face armies of <b>zombies</b> in varied scenarios full of <b>challenges</b>. Prove your <b>skills</b> and <b>reflexes</b> and become the warrior of the zombie apocalypse!',
-        'ptbr': '<b>Zombies & Bullets</b> é um <b>jogo de ação e tiro 3D com visão top-down</b> onde você deve ajudar o soldado <b>Jacob</b> a enfrentar exércitos de <b>zumbis</b> em cenários variados e repletos de <b>desafios</b>. Prove suas <b>habilidades</b> e <b>reflexos</b> e torne-se o guerreiro do apocalipse zumbi!',
+        'en': '<b>Zombies & Bullets</b> is a <b>3D top-down action shooter</b> game where you must help the soldiers <b>Jacob</b> and <b>Erin</b> face armies of <b>zombies</b> in varied scenarios full of <b>challenges</b>. Prove your <b>skills</b> and <b>reflexes</b> and become the warrior of the zombie apocalypse!',
+        'ptbr': '<b>Zombies & Bullets</b> é um <b>jogo de ação e tiro 3D com visão top-down</b> onde você deve ajudar os soldados <b>Jacob</b> e <b>Erin</b> a enfrentar exércitos de <b>zumbis</b> em cenários variados e repletos de <b>desafios</b>. Prove suas <b>habilidades</b> e <b>reflexos</b> e torne-se o guerreiro do apocalipse zumbi!',
     },
     'zombies-and-bullets-skills': {
         'en': 'Skills',
         'ptbr': 'Habilidades',
     },
     'zombies-and-bullets-skills-desc': {
-        'en': 'You can improve your <b>skills</b> in <b>camps</b> as you gain <b>experience levels</b>. You can also collect <b>backpacks</b> that grant <b>unique abilities</b> while equipped. Adapt Jacob to your <b>play style</b>!',
-        'ptbr': 'Você pode aprimorar suas <b>habilidades</b> em <b>acampamentos</b> à medida que ganha <b>níveis de experiência</b>. Você também pode coletar <b>mochilas</b> que concedem <b>habilidades únicas</b> quando equipadas. Adapte Jacob ao seu <b>estilo de jogo</b>!',
+        'en': 'You can improve your <b>skills</b> in <b>camps</b> as you gain <b>experience levels</b>. You can also collect <b>backpacks</b> that grant <b>unique abilities</b> while equipped. Adapt the soldiers to your <b>play style</b>!',
+        'ptbr': 'Você pode aprimorar suas <b>habilidades</b> em <b>acampamentos</b> à medida que ganha <b>níveis de experiência</b>. Você também pode coletar <b>mochilas</b> que concedem <b>habilidades únicas</b> quando equipadas. Adapte os soldados ao seu <b>estilo de jogo</b>!',
     },
     'zombies-and-bullets-weapons': {
         'en': 'Weapons',
