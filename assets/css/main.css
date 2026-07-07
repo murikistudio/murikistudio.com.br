@@ -180,6 +180,7 @@ div .fixed-background {
     background-attachment: fixed !important;
     background-position: center !important;
     z-index: 0;
+    padding: 2rem 0;;
 }
 
 .screenshot-background {
