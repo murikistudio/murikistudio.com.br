@@ -5,38 +5,34 @@ AOS.init({
 });
 
 initLocale();
-translateElements();
-
-// Update language button
-$('.btn-lang').addClass('btn-lang-' + localStorage.getItem('locale'));
+setLocale(null);
 
 // Bind language button click
-$('.btn-lang').on('click', function() {
-    const element = $(this);
-
-    if (element.hasClass('btn-lang-ptbr')) {
-        element.removeClass('btn-lang-ptbr');
-        element.addClass('btn-lang-en');
-        setLocale('en');
-    } else {
-        element.removeClass('btn-lang-en');
-        element.addClass('btn-lang-ptbr');
+$('.btn-lang').on('click', function () {
+    if (localStorage.getItem('locale') === 'en') {
         setLocale('ptbr');
+    } else {
+        setLocale('en');
     }
 });
 
 // Global functions
 
-/** @param {String} locale */
+/**
+ * Sets the site locale and updates its interface.
+ * @param {String} locale
+*/
 function setLocale(locale) {
-    localStorage.setItem('locale', locale);
+    localStorage.setItem('locale', locale || localStorage.getItem('locale'));
     translateElements();
+    updateLanguageButton();
 }
 
+/** Translates all elements on the page to match current locale. */
 function translateElements() {
     const locale = localStorage.getItem('locale');
 
-    $('[data-translate]').each(function() {
+    $('[data-translate]').each(function () {
         const element = $(this);
 
         if (!TRANSLATIONS[element.attr('data-translate')]) {
@@ -62,4 +58,13 @@ function initLocale() {
     }
 
     localStorage.setItem('locale', 'en');
+}
+
+/** Updates the language button classes to match current language behavior. */
+function updateLanguageButton() {
+    const currentLocale = localStorage.getItem('locale');
+    const otherLocale = currentLocale === 'en' ? 'ptbr' : 'en';
+    const element = $('.btn-lang');
+    element.removeClass('btn-lang-' + currentLocale);
+    element.addClass('btn-lang-' + otherLocale);
 }
