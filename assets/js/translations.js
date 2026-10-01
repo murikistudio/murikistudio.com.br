@@ -47,8 +47,8 @@ const TRANSLATIONS = {
         'ptbr': 'Muriki Studio é um time de desenvolvimento de jogos indie formado em 2022.',
     },
     'the-team': {
-        'en': 'The Team',
-        'ptbr': 'O Time',
+        'en': 'Team',
+        'ptbr': 'Time',
     },
     'about-diego': {
         'en': 'Diego Almeida (2D and 3D artist)',
