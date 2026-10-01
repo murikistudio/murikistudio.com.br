@@ -14,10 +14,6 @@
   icon: instagram
   featured: true
   url: "https://www.instagram.com/murikistudio"
-- name: Facebook
-  icon: facebook
-  featured: false
-  url: "https://www.facebook.com/murikistudiobr"
 - name: TikTok
   icon: tiktok
   featured: true
@@ -38,10 +34,6 @@
   icon: x
   featured: false
   url: "https://x.com/murikistudio"
-- name: Bluesky
-  icon: bluesky
-  featured: false
-  url: "https://bsky.app/profile/murikistudio.bsky.social"
 - name: contact@murikistudio.com.br
   icon: email
   featured: false
