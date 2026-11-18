@@ -30,10 +30,6 @@
   icon: linkedin
   featured: false
   url: "https://www.linkedin.com/company/murikistudio"
-- name: X
-  icon: x
-  featured: false
-  url: "https://x.com/murikistudio"
 - name: contact@murikistudio.com.br
   icon: email
   featured: false
